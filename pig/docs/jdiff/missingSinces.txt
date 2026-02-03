@@ -1,0 +1,97 @@
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.runtime.BloomFilterPartitioner Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.spark.FlatMapFunctionAdapter Interface
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.spark.JobStatisticCollector Class
+MISSING @SINCE TAG: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.LoadFuncDecorator Class
+MISSING @SINCE TAG: org.apache.pig.data.NonWritableTuple Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.spark.PairFlatMapFunctionAdapter Interface
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeCogroupTez Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeJoinTez Class
+MISSING @SINCE TAG: org.apache.pig.backend.hadoop.executionengine.tez.util.SerializationInfo Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.spark.SparkPigSplit.SparkPigSplitsUtils Class
+NO DOC BLOCK: org.apache.pig.newplan.logical.rules.SplitConstantCalculator Class
+NO DOC BLOCK: org.apache.pig.impl.builtin.TezIndexableLoader Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.util.TezInputHelper Class
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.util.TezJobSplitWriter Class
+NO DOC BLOCK: org.apache.pig.impl.builtin.DefaultIndexableLoader Constructor (void)
+NO DOC BLOCK: org.apache.pig.data.DistinctDataBag Constructor (java.util.Set)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeCogroup Constructor (org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeCogroup)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeJoin Constructor (org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeJoin)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POReservoirSample Constructor (org.apache.pig.impl.plan.OperatorKey, int, java.util.List, long)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.runtime.PigProcessor Method abort()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.util.TezCompilerUtil Method addAllPredecessors(org.apache.pig.backend.hadoop.executionengine.tez.plan.TezOperPlan, org.apache.pig.backend.hadoop.executionengine.tez.plan.TezOperator, java.util.Set)
+MISSING @SINCE TAG: org.apache.pig.EvalFunc Method addCredentials(org.apache.hadoop.security.Credentials, org.apache.hadoop.conf.Configuration)
+MISSING @SINCE TAG: org.apache.pig.LoadFunc Method addCredentials(org.apache.hadoop.security.Credentials, org.apache.hadoop.conf.Configuration)
+MISSING @SINCE TAG: org.apache.pig.StoreFuncInterface Method addCredentials(org.apache.hadoop.security.Credentials, org.apache.hadoop.conf.Configuration)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.hbase.HBaseStorage Method addCredentials(org.apache.hadoop.security.Credentials, org.apache.hadoop.conf.Configuration)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.Launcher Method addGCParams(java.util.Properties, java.lang.String, boolean)
+MISSING @SINCE TAG: org.apache.pig.impl.util.JarManager Method addPigTestJarIfPresent(java.util.Set)
+MISSING @SINCE TAG: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeCogroup Method addTupleToIndex(org.apache.pig.data.Tuple, java.util.List)
+MISSING @SINCE TAG: org.apache.pig.tools.pigstats.ScriptState Method beginNestedScript(java.io.File)
+NO DOC BLOCK: org.apache.pig.tools.pigstats.spark.SparkJobStats Method combineTaskMetrics(java.util.Map)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigWritableComparators.PigTextRawBytesComparator Method compare(java.lang.Object, java.lang.Object)
+NO DOC BLOCK: org.apache.pig.impl.util.hive.HiveUtils Method createObjectInspector(org.apache.hadoop.hive.serde2.typeinfo.TypeInfo, boolean)
+NO DOC BLOCK: org.apache.pig.tools.pigstats.ScriptState Method endNestedScript()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.spark.SparkUtil Method flatMapFunction(org.apache.pig.backend.hadoop.executionengine.spark.FlatMapFunctionAdapter)
+NO DOC BLOCK: org.apache.pig.tools.pigstats.spark.SparkCounter Method getAccumulator()
+NO DOC BLOCK: org.apache.pig.tools.pigstats.spark.SparkCounter.LongSparkCounter Method getAccumulator()
+NO DOC BLOCK: org.apache.pig.tools.pigstats.spark.SparkCounter.MapSparkCounter Method getAccumulator()
+NO DOC BLOCK: org.apache.pig.newplan.logical.relational.LOForEach Method getCasterForAsClause()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc Method getCredentials()
+NO DOC BLOCK: org.apache.pig.Expression Method getDataType()
+NO DOC BLOCK: org.apache.pig.impl.util.hive.HiveUtils Method getDataTypeForSearchArgs(byte)
+NO DOC BLOCK: org.apache.pig.newplan.logical.relational.LOGenerate Method getFlattenNumFields()
+MISSING @SINCE TAG: org.apache.pig.LoadFunc Method getGlobPaths(java.lang.String, org.apache.hadoop.conf.Configuration, boolean)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POLoad Method getLoadFuncDecorator()
+NO DOC BLOCK: org.apache.pig.builtin.ParquetLoader Method getPredicateFields(java.lang.String, org.apache.hadoop.mapreduce.Job)
+MISSING @SINCE TAG: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeJoin Method getRightLoader()
+NO DOC BLOCK: org.apache.pig.builtin.ParquetLoader Method getSupportedExpressionTypes()
+NO DOC BLOCK: org.apache.pig.impl.io.NullableText Method getText()
+NO DOC BLOCK: org.apache.pig.impl.util.hive.HiveUtils Method getTypeInfo(org.apache.pig.ResourceSchema.ResourceFieldSchema, boolean)
+MISSING @SINCE TAG: org.apache.pig.data.DataBag Method hashCode()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.plan.operator.BloomPackager Method isBloomCreatedInMap()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.plan.TezOperator Method isMergeCogroup()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.plan.TezOperator Method isMergeJoin()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.plan.TezOperator Method isMergeSparseJoin()
+MISSING @SINCE TAG: org.apache.pig.impl.builtin.DefaultIndexableLoader Method loadIndex()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.plan.TezOperator Method markMergeCogroup()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.plan.TezOperator Method markMergeJoin()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.plan.TezOperator Method markMergeSparseJoin()
+MISSING @SINCE TAG: org.apache.pig.data.BagFactory Method newDistinctBag(java.util.Set)
+MISSING @SINCE TAG: org.apache.pig.data.DefaultBagFactory Method newDistinctBag(java.util.Set)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.spark.SparkUtil Method pairFlatMapFunction(org.apache.pig.backend.hadoop.executionengine.spark.PairFlatMapFunctionAdapter)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeCogroup Method readIndex()
+NO DOC BLOCK: org.apache.pig.newplan.logical.relational.LOForEach Method setCasterForAsClause(org.apache.pig.newplan.logical.relational.LOForEach)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.expressionOperators.POUserFunc Method setCredentials(org.apache.hadoop.security.Credentials)
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POForEach Method setFlattenNumFields(int[])
+NO DOC BLOCK: org.apache.pig.builtin.ParquetLoader Method setPushdownPredicate(org.apache.pig.Expression)
+MISSING @SINCE TAG: org.apache.pig.impl.io.InterRecordReader Method skipUntilMarkerOrSplitEndOrEOF()
+MISSING @SINCE TAG: org.apache.pig.StoreFuncInterface Method supportsParallelWriteToStoreLocation()
+NO DOC BLOCK: org.apache.pig.backend.hadoop.hbase.HBaseStorage Method supportsParallelWriteToStoreLocation()
+NO DOC BLOCK: org.apache.pig.builtin.AvroStorage Method supportsParallelWriteToStoreLocation()
+NO DOC BLOCK: org.apache.pig.builtin.OrcStorage Method supportsParallelWriteToStoreLocation()
+NO DOC BLOCK: org.apache.pig.builtin.PigStorage Method supportsParallelWriteToStoreLocation()
+NO DOC BLOCK: org.apache.pig.builtin.mock.Storage Method supportsParallelWriteToStoreLocation()
+NO DOC BLOCK: org.apache.pig.tools.pigstats.spark.SparkJobStats Field counters
+NO DOC BLOCK: org.apache.pig.Expression Field dataType
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigInputFormat.RecordReaderFactory Field decorator
+NO DOC BLOCK: org.apache.pig.CounterBasedErrorHandler Field ERROR_COUNT
+NO DOC BLOCK: org.apache.pig.CounterBasedErrorHandler Field ERROR_HANDLER_COUNTER_GROUP
+NO DOC BLOCK: org.apache.pig.impl.builtin.DefaultIndexableLoader Field index
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.plan.TezOperator.OPER_FEATURE Field MERGE_COGROUP
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.plan.TezOperator.OPER_FEATURE Field MERGE_JOIN
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.tez.plan.TezOperator.OPER_FEATURE Field MERGE_SPARSE_JOIN
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_BLOOMJOIN_NOCOMBINER
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_GC_PARAMS
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_GC_PARAMS_DEFAULT
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_GC_PATTERN
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_INTERSTORAGE_SYNCMARKER_INTERVAL
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_INTERSTORAGE_SYNCMARKER_INTERVAL_DEFAULT
+MISSING @SINCE TAG: org.apache.pig.PigConfiguration Field PIG_INTERSTORAGE_SYNCMARKER_SIZE
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_INTERSTORAGE_SYNCMARKER_SIZE_DEFAULT
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_INTERSTORAGE_SYNCMARKER_SIZE_MAX
+NO DOC BLOCK: org.apache.pig.PigConfiguration Field PIG_INTERSTORAGE_SYNCMARKER_SIZE_MIN
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigInputFormat Field PIG_LOADS
+NO DOC BLOCK: org.apache.pig.CounterBasedErrorHandler Field RECORD_COUNT
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeJoin Field rightLoader
+NO DOC BLOCK: org.apache.pig.backend.hadoop.executionengine.physicalLayer.relationalOperators.POMergeJoin Field rightLoaderFuncSpec
+NO DOC BLOCK: org.apache.pig.impl.builtin.DefaultIndexableLoader Field rightLoaderFuncSpec

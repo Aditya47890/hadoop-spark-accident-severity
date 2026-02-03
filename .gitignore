@@ -1,0 +1,84 @@
+#################################
+# HADOOP DISTRIBUTION (IGNORE)
+#################################
+bin/
+lib/
+libexec/
+include/
+share/
+
+#################################
+# HADOOP RUNTIME / STATE
+#################################
+logs/
+tmp/
+namenode/
+datanode/
+dfs/
+data/
+**/*.log
+**/*.pid
+
+#################################
+# WINDOWS / UNUSED FILES
+#################################
+*.cmd
+*.bat
+
+#################################
+# MAVEN BUILD OUTPUT (PROJECTS)
+#################################
+**/target/
+**/classes/
+**/generated-sources/
+**/maven-archiver/
+**/maven-status/
+
+#################################
+# JAVA BUILD FILES
+#################################
+*.class
+
+#################################
+# JAR FILES (VERY IMPORTANT)
+#################################
+# ❌ Ignore generated jars
+**/target/*.jar
+
+# ✅ Allow source-controlled jars ONLY if needed
+!**/src/**/*.jar
+
+#################################
+# SPARK (IGNORE BINARIES, KEEP SCRIPTS)
+#################################
+spark/bin/
+spark/jars/
+spark/logs/
+spark/work/
+
+#################################
+# PIG (IGNORE BINARIES, KEEP SCRIPTS)
+#################################
+pig/bin/
+pig/lib/
+pig/logs/
+
+#################################
+# IDE / OS
+#################################
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+#################################
+# PYTHON CACHE
+#################################
+__pycache__/
+*.pyc
+
+#################################
+# SECURITY / AUTO-GENERATED CONFIGS
+#################################
+ssl-*.xml
+user_ec_policies.xml
