@@ -82,3 +82,5 @@ __pycache__/
 #################################
 ssl-*.xml
 user_ec_policies.xml
+
+traffic_project/dataset/
